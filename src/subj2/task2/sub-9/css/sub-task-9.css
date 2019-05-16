@@ -1,0 +1,47 @@
+body {
+    background: url("../img/background-tree.jpg") no-repeat;
+    color: white;
+}
+
+body a {
+    color: #00cdcd;
+}
+
+body a:hover {
+    color: chartreuse;
+}
+
+body a:visited {
+    color: blueviolet;
+}
+
+body > h1:first-of-type {
+    text-align: center;
+}
+
+footer {
+    border: 2px solid rgba(55, 54, 0, 0.9);
+    background: rgba(27, 27, 27, 0.7);
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: right;
+    margin-left: 5%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+nav {
+    border: 2px solid rgba(55, 54, 0, 0.9);
+    background: rgba(27, 27, 27, 0.7);
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+span {
+    display: inline-block;
+    column-count: 2;
+}

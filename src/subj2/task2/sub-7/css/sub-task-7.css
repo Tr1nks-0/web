@@ -1,0 +1,24 @@
+.n1{
+    background-color: blue;
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    z-index: 1;
+    left: 440px;
+    top: 45px
+}
+.n2{
+    background-color: red;
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
+    left: 400px;
+    top: 40px
+}
+
+span {
+    display: inline-block;
+    width: 25%;
+    background: yellow;
+}

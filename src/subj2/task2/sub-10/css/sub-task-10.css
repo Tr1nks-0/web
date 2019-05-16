@@ -1,0 +1,75 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url("../img/city-background.jpg");
+    display: table;
+    margin-bottom: 7%;
+}
+
+.top {
+    display: table-row;
+    height: 30%;
+    width: inherit;
+}
+
+.middle {
+    display: table-row;
+    height: 70%;
+    width: inherit;
+}
+
+.left {
+    width: 30%;
+    display: table-cell;
+    height: inherit;
+}
+
+.right {
+    width: 70%;
+    display: table-cell;
+    height: inherit;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    height: 10%;
+    border: 2px solid black;
+    background: rgba(128, 128, 128, 0.9);
+    font-size: 120%;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li a {
+    font-size: 140%;
+    text-decoration: none;
+    display: inline-block;
+    color: ivory;
+    border: 2px solid black;
+    background: rgba(45, 45, 44, 0.71);
+}
+
+.menu li a:hover {
+    color: yellow;
+    border: 1px solid blue;
+}
+
+.main div {
+    border: 2px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+
+.logo {
+    height: 256px;
+}

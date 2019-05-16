@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Трехколоночный макет</title>
+    <style type="text/css">
+        body {
+            font: 0.8em Arial, Helvetica, sans-serif; /* размер шрифт и семейство используемого шрифта, определяет шрифт страницы  */
+            background: #D7E1F2; /* определяет фон элемента body */
+            color: #ffe; /* определяет цвет шрифта элемента body */
+        }
+
+        a {
+            color: #008BCE; /* определяет цвет шрифта ссылки */
+        }
+
+        #container {
+            width: 70%; /* ширина элемента с id = container*/
+            margin: 0 auto; /* наружный отступ от других элементов элемента с id = container */
+            background: #FCE600; /* фон элемента с id = container */
+        }
+
+        #header {
+            font-size: 2.2em; /* размер шрифта элемента с id = header */
+            text-align: center; /* горизонтальное выравнивание элемента с id = header */
+            padding: 5px; /* внутренний отступ контента элемента с id = header */
+            background: #D71920; /* фон элемента с id = header */
+        }
+
+        #nav, #aside {
+            float: left;
+            width: 15%;
+            padding: 5px;
+        }
+
+        #content {
+            background: #54B948;
+            margin: 0 17%; /* наружный отступ от других элементов элемента с id = content  top-bottom=0 left-right=17%*/
+            padding: 10px;
+        }
+
+        #aside {
+            float: right;
+            color: #000;
+        }
+
+        h2 {
+            margin: 0 0 1em;
+        }
+
+        #footer {
+            clear: both; /* отменяет обтекание текстом с обеих сторон ( лево и право ) */
+            padding: 5px; /* внутренний отступ контента элемента с id = footer */
+            background: #D71920; /* фон элемента с id = footer */
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">Страница неизвестно о чем</div>
+    <div id="nav">
+        <p><a href="stat.html">Ссылка1</a></p>
+        <p><a href="interview.html">Ссылка 2</a></p>
+        <p><a href="ask.html">Ссылка 3</a></p>
+    </div>
+    <div id="aside">
+        <h3>Колонка навостей</h3>
+        <p>Абзац текста;</p>
+        <p>Еще один абзац;</p>
+        <p>Еще еще один абзац;</p>
+    </div>
+    <div id="content">
+        <h2>Колонка с основным содержимым</h2>
+        <p>Знаете ли вы, что</p>
+        <ul>
+            <li>пароход изобретен: Петром I, А. Эйнштейном и А. Поповым;</li>
+            <li>Диего Веласкес писал свои полотна в стиле: империализма, кубизма
+                и империосионизма;
+            </li>
+            <li>Фаросский маяк находится в Фаросе;</li>
+            <li>конфуцианство возникло в: Италии, Корее и Франции;</li>
+            <li>богами торговли и воровства в Древней Греции были: Марс, Меркурий
+                и Дионис;
+            </li>
+            <li>Франция – это город;</li>
+            <li>богами загробного мира в Египте были: Аид, Анубис и Ассирис;</li>
+            <li>столица Золотой Орды — Монголия;</li>
+            <li>главные противники Александра Македонского: татаро-монголы, Дедал
+                и Цезарь;
+            </li>
+        </ul>
+    </div>
+    <div id="footer">&copy; Все права защищены</div>
+</div>
+</body>
+</html>

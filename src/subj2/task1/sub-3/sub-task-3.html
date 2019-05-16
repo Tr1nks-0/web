@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sub task 3</title>
+    <style>
+
+        .circle {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            background: hotpink;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%
+        }
+
+        .triangle {
+            position: absolute;
+            top: 95px;
+            left: 95px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 0 40px 40px;
+            border-color: transparent transparent darkblue transparent;
+            transform: skew(20deg, 25deg);
+        }
+
+        span {
+            font: 24px 'Times New Roman';
+            font-weight: bold;
+        }
+
+        span:nth-of-type(1) {
+            position: absolute;
+            top: 120px;
+            left: 70px;
+        }
+
+        span:nth-of-type(2) {
+            position: absolute;
+            top: 85px;
+            left: 80px;
+        }
+
+        span:nth-of-type(3) {
+            position: absolute;
+            top: 70px;
+            left: 115px;
+        }
+
+        span:nth-of-type(4) {
+            position: absolute;
+            top: 85px;
+            left: 150px;
+        }
+
+        span:nth-of-type(5) {
+            position: absolute;
+            top: 120px;
+            left: 155px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<span>О</span>
+<span>Б</span>
+<span>В</span>
+<span>А</span>
+<span>Л</span>
+
+<canvas class="circle"></canvas>
+<canvas class="triangle"></canvas>
+
+</body>
+</html>
